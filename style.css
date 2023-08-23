@@ -1,0 +1,122 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    color:#19105b;
+}
+
+.todo-container{
+    /* display: flex;
+    justify-content: center; */
+    background-color: lightpink;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.todo-sub-container{
+    padding: 2rem;
+    width: 90%;
+    margin-left: 4rem;
+
+}
+
+.todo-heading{
+    font-size: 5vmin;
+    margin-top: 2rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.todo-create-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.todo-create-container input{
+    padding: 1.5rem;
+    /* background-color: grey; */
+    border: 0;
+    border-radius: 0.5rem;
+    width: 80%;
+    font-size: 1.5rem
+}
+.todo-create-container button{
+    width: 20%;
+    border: 0;
+    background-color: lightskyblue;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.todo-items-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightskyblue;
+    padding:1rem;
+}
+.todo-items-container div{
+    padding: 0.7rem;
+}
+
+.todo-item-name,.todo-item-delete-button{
+    font-size:2rem;
+    padding:0.7rem;
+}
+
+.todo-item-options{
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    border: 0;
+    font-weight: bold;
+    
+}
+.todo-item-options option{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+#todo-item-checkbox{
+     margin-right: 1rem;
+}
+
+
+.todo-display-container{
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    margin-top: 5rem;
+    }
+    
+
+.cross{
+    text-decoration: line-through;
+}
+
+.todo-bolder-text{
+    font-weight: bold;
+    font-size: 4vmin;
+    
+}
+
+.todo-normal-text{
+    font-size: 2.5vmin;
+}
+
+.todo-my-tasks-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+}
+
+#todo-search{
+    font-size: 1.5rem;
+    border: 0;
+    border-radius: 0.5rem;
+    padding:1rem
+}

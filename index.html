@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/52b9675f2b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="todo-container">
+        <div class="todo-sub-container">
+            <h1 class="todo-heading">Todo Application</h1>
+            <h1 class="todo-bolder-text">Create <span class="todo-normal-text">Task</span></h1>
+           <div class="todo-create-container">
+                <input type="text" placeholder="Create new Todo" id="todo-user-input-value">
+                <button type="submit" id="todo-submit-button" onclick="submitHandler()">Add</button>
+           </div>
+           <div class="todo-my-tasks-container">
+            <h1 class="todo-bolder-text">My <span class="todo-normal-text">Tasks</span></h1>
+             <input type="search" placeholder="search here"  id="todo-search">     
+           </div>
+           <ul class="todo-items-main-container" id="todo-items-main-container">
+          
+           </ul>
+          
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
